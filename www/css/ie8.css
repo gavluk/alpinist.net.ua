@@ -1,0 +1,49 @@
+html {background:#fff;}
+body {background:url('../img/bg.png') repeat-x; min-width:1001px;}
+div.wrap {width:1001px;}
+.header {background:none; height:148px;}
+.header .logo {width:370px; margin:12px auto 0; height:128px;}
+.header .logo a {width:370px; height:128px;}
+.header .logo a span {width:100%; text-align:center; text-indent:0; display:block; float:left; color:#fff; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none;
+font-size:12px; margin:4px 0 0; text-shadow:1px 1px 1px #333; letter-spacing:1px;}
+.header .logo a img {width:370px; height:100px;}
+.header .top-phone {background:url('../img/top-phone.png') no-repeat; width:178px; height:23px; position:absolute; top:49px; right:29px; margin:0; padding:0; float:none;}
+.header .top-phone img {display:none;}
+.header .alp {display:block;}
+.slider {display:block;}
+.main {margin:15px 0 0;}
+.main .content {width:651px; padding:0 0 0 10px;}
+.main .content h1, .main .content h2, .main .content h3, .main .content h4, .main .content h5 {font-size:28px; padding:0 0 20px; font-weight:bold;}
+.main .content p {padding:0 6px 12px 0;}
+.main .menu {background:url('../img/menubg.png') repeat-x #66b317; width:333px; margin:12px 0 0; float:right;}
+.menu .main-menu {width:132px;}
+.menu .main-menu a {width:132px;}
+.menu .main-menu a:last-child {border:0px;}
+.menu .main-menu a span {width:122px; padding:0 4px 0 6px;}
+.menu .sub-menu {width:200px; margin:0;}
+.sub-menu-item a {width:200px; padding:0;}
+.sub-menu-item a span {width:194px; padding:0 3px 0 6px; font-family: 'Philosopher', sans-serif; font-size:14px; font-weight:normal; letter-spacing:0; display:table-cell;}
+.sub-menu-item a#sm7 span i {font-size:13px;}
+.sub-menu-item a#sm13, .sub-menu-item a#sm14, .sub-menu-item a#sm15 {width:200px;}
+.sub-menu-item a#sm13 span, .sub-menu-item a#sm14 span, .sub-menu-item a#sm15 span {padding:0 5px;}
+.sub-menu-item.mm4 a {height:47px;}
+.sub-menu-item a.show span {font-weight:normal; text-shadow:1px 1px 1px #333;}
+.clr-footer {height:140px;}
+#footer .outfoot {min-width:1001px;}
+#footer .infoot {width:1001px;}
+#footer .bottom-contacts {display:block;}
+
+
+.header .top-phone {display:none;}
+.menu .main-menu a,
+.menu .main-menu a span {height:75px;}
+.sub-menu-item a,
+.sub-menu-item a span {height:76px;}
+.sub-menu-item.mm4 a {height:61px;}
+
+.exaple-photo-link {width:auto;}
+.exaple-photo-link img {width:auto;}
+.exaple-photo-link.fl {margin:0 5px 0 0;}
+.main .content {padding:0;}
+#footer .copy {margin:30px 0 0;}
+#footer .copy-right {margin:30px 0 0;}
