@@ -65,10 +65,12 @@ display:table-cell; vertical-align:middle;}
 .main .content h1,
 .main .content h2,
 .main .content h3,
-.main .content h4,
 .main .content h5 {font-size:24px; line-height:24px; font-weight:normal; font-family: 'Philosopher', sans-serif;}
 .main .content h1, .main .content h2, .main .content h3, .main .content h4, .main .content h5 {padding:5px 0 10px;}
+.main .content h4 {font-size:1.1em; font-weight: bold; margin-top: 1em}
+.main .content h4:first-of-type {margin-top: 0}
 .main .content p {padding:0 0 12px;}
+.main .content i {color:#66b317;}
 
 /* mobile menu */
 .main .menu {background:#9ee32a; width:100%; margin:-21px 0 0; float:left; position:relative; top:8px; overflow:hidden;}
@@ -172,7 +174,7 @@ transition: all 0.2s ease-out; line-height:18px; font-family:Tahoma, Geneva, san
 	.gal-body .main {margin:0;}
 	.gal-body .main .menu {top:23px;}
 	.main .content {width:100%; padding:0 10px;}
-	.main .content h1, .main .content h2, .main .content h3, .main .content h4, .main .content h5 {font-size:28px; padding:0 0 20px; font-weight:bold;}
+	.main .content h1, .main .content h2, .main .content h3 {font-size:28px; padding:0 0 20px; font-weight:bold;}
 	.main .content p {padding:0 6px 12px 0;}
 	.main .content li {margin:0 0 5px 20px;}
 	
